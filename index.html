@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDoProject</title>
+</head>
+<body>
+    <div id="maintodo" class="todo">
+        <h1 class="headtext">Today's Tasks</h1>
+        <h3 id='todotitle'><span class='titletext'>To do :</span> <div id='todoprogress'></div><div id="todoscale"></div></h3>
+        <div id='todolistpanel'>
+            <ul id="do-list" class="do-list ">
+                
+            </ul>
+        </div>
+            
+        <div id='additempanel'  >
+            <input maxlength="40" id='newtodo' type='text' class='newtodonormal' placeholder='Type text and hit Enter to add' />
+        </div>
+        
+        <h3 id='donetitle'><span class='titletext'>Done :</span><div id='doneprogress'></div><div id="donescale"></div></h3>
+                
+        <div id='doneitemspanel'>
+            <ul id="done-list" class="done-list">
+            </ul>
+        </div>
+        <button id="trash"></button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
